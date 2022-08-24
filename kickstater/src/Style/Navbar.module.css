@@ -1,0 +1,35 @@
+.navbar{
+    width: 100%;
+    height: 65px;
+    border:0.5px solid rgb(175, 173, 173);
+    display: flex;
+    justify-content: space-between;
+}
+#second{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin-left: 14px;
+}
+#third{
+    display: flex;
+    width: 100px;
+    margin-right: 14px;
+    justify-content: space-between;
+}
+.logo{
+   /* border:1px solid red; */
+   display:flex;
+   justify-content: space-around;
+}
+.logo>img{
+    width: 200px;
+    height: 22px;
+    margin-top:17px ;
+}
+#productpages{
+    display: flex;
+    width:70%;
+    margin: auto;
+    justify-content: space-between;
+}
