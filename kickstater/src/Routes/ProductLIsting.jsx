@@ -3,7 +3,7 @@ import styling from "../Style/Navbar.module.css"
 
  export function ProductListing(){
     return (
-        <div className={styling.navbar} >
+        <div className={styling.navbar2} >
         <div id={styling.productpages}>
             <p>Arts</p>
             <p>Comics & Illustration</p>
