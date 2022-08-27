@@ -36,3 +36,42 @@
 #box>div>p{
   font-size: 35px;
 }
+#itemData{
+    border:1px solid gray;
+    height: 600px;
+    width: 93%;
+    display: flex;
+    margin: auto;
+    margin-top: -27px;
+}
+.item{
+    border:1px solid red;
+    height: 90%;
+    width:55%;
+    margin-top:20px;
+}
+.items{
+    border:1px solid red;
+    height: 90%;
+    width:45%;
+    margin-top:20px;
+    
+}
+.item>img{
+    height:340px;
+    width: 90%;
+}
+.item>p:nth-child(1){
+    color:gray;
+}
+.title{
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+   
+}
+.title:hover{
+    color:rgb(24, 134, 110);
+    transform: 0.5;
+    
+}
